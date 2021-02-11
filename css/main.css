@@ -1,0 +1,141 @@
+/* Grid */
+
+.full-width { 
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;
+    color:#1f202b;
+    border: none;
+    margin-left: 0;
+}
+html {
+    background-color: #1f202b;
+    }
+/* header */
+header {
+    height: 800px;
+    background-image: url(../img/hero-background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+h4 {
+    color: white;
+    font-size: 26px;
+    font-family: 'Montserrat';
+    padding: 0 45px;
+}
+h1 {
+    color:white;
+    font-size: 72px;
+    font-family: 'Source Code Pro';
+    padding: 45px;
+    float: left;
+
+}
+h1 span {
+    color: #fa0075;
+}
+nav {
+    float: right;
+}
+nav ul li {
+    display: inline-block;
+}
+nav,ul,li,a {
+    color: white;
+    font-size: 30px;
+    font-family: 'Montserrat';
+    text-decoration: none;
+    text-transform: uppercase;
+    text-indent: 0.5em;
+}
+
+/*portofolio */
+
+
+h2 {
+    color: #fa0075;
+    font-size: 36px;
+    font-family: 'Source Code Pro';
+    padding-left: 280px;
+    padding-top: 100px;
+    
+}h3 {
+    color: white;
+    font-size: 24px;
+    font-family: 'Montserrat';
+}
+img {
+    border: 1px solid #b7b7b7;
+    color: #1f202b;
+}
+p {
+    color: white;
+    font-size: 24px;
+    font-family: 'Montserrat';
+    display: block;
+}   
+/*about */
+
+#about {
+    background-image: url(../img/about-me.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+em { color: black;
+       float: left;
+       font-size: 28px;
+       line-height: 46px;
+       font-family: sans-serif bold;
+       padding-top: 0;
+    }
+   /*footer */ 
+   footer {
+    display: block;
+    float: left;
+    padding-left: 100px;
+    text-align: center;
+}
+.third-width {
+    float: left;
+    width: 33.33%;
+}
+div {
+    display: block;
+    box-sizing: border-box; 
+}
+#copyright .full-width {
+    padding: 110px 0;
+}
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+}
+  
+#footer h3 {
+    font-size: 24px;
+    line-height: 32px;
+}
+#footer p {
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 50px;
+    clear: both;
+}
+
+#footer ul li {
+    display: inline-block;
+}
+#footer ul img {
+    padding-right: 48px;
+}
